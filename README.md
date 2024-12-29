@@ -5,7 +5,7 @@ Una aplicación para gestionar tareas, donde los usuarios pueden crear, actualiz
 ## Enlace a la aplicación desplegada
 
 - **Frontend**: [https://taskmanager-prueba-tecnica.netlify.app/](https://taskmanager-prueba-tecnica.netlify.app/)  
-- **Backend**: [https://taskmanager-backend-msqj.onrender.com](https://taskmanager-backend-msqj.onrender.com)
+- **Backend**: [https://task-manager-backend-msqj.onrender.com/](https://task-manager-backend-msqj.onrender.com/)
 
 ## Repositorios en GitHub
 
