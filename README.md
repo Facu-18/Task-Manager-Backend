@@ -4,22 +4,23 @@ Una aplicación para gestionar tareas, donde los usuarios pueden crear, actualiz
 
 ## Enlace a la aplicación desplegada
 
-- **Frontend**: [https://taskmanager-frontend.up.railway.app](https://taskmanager-frontend.up.railway.app)  
+- **Frontend**: [https://taskmanager-prueba-tecnica.netlify.app/](https://taskmanager-prueba-tecnica.netlify.app/)  
 - **Backend**: [https://taskmanager-backend-msqj.onrender.com](https://taskmanager-backend-msqj.onrender.com)
 
 ## Repositorios en GitHub
 
-1. **Frontend**: [https://github.com/tuusuario/task-manager-frontend](https://github.com/tuusuario/task-manager-frontend)
-2. **Backend**: [https://github.com/tuusuario/task-manager-backend](https://github.com/tuusuario/task-manager-backend)
+1. **Frontend**: [https://github.com/Facu-18/task-manager-frontend](https://github.com/Facu-18/task-manager-frontend)
+2. **Backend**: [https://github.com/Facu-18/task-manager-backend](https://github.com/Facu-18/task-manager-backend)
 
 ## Pasos para instalar y ejecutar el proyecto localmente
 
 ### Backend
 
 1. Clona el repositorio del backend:
-   ```bash
+   
    git clone https://github.com/tuusuario/task-manager-backend.git
    cd task-manager-backend
+
 2.Instala las dependencias:
 
 npm install
