@@ -1,17 +1,8 @@
-import { CorsOptions } from 'cors'
+import cors from 'cors';
 
-export const corsConfig : CorsOptions = {
-    origin: function(origin, callback) {
-      const whiteList = [process.env.FRONTEND_URL] 
-      
-      if(process.argv[2] === '--api'){
-         whiteList.push(undefined)
-      }
+const corsOptions = {
+  origin: process.env.FRONTEND_URL || 'http://localhost:5173', // Aquí usas la URL de tu frontend desplegado
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+};
 
-      if (whiteList.includes(origin) ){
-          callback(null, true)
-       }else{
-         callback(new Error('No permitido por CORS'))
-       }
-   }
-}
